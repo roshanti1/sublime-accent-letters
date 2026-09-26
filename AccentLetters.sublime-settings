@@ -1,0 +1,10 @@
+{
+    // ø ł đ ß æ œ þ have no plain form in Unicode, so removing the accent cannot be done by
+    // decomposition and they go through a table instead: ø becomes o, ß becomes ss, æ becomes ae.
+    // Set to false to leave them exactly as they are.
+    "convert_special": true,
+
+    // "drop"  — ä becomes a, the way most languages want it.
+    // "spell" — ä becomes ae, the way German spells an umlaut out.
+    "german_style": "drop"
+}
