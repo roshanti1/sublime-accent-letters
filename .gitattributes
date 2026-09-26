@@ -1,0 +1,3 @@
+# Keep development files out of the package Package Control builds from a tag.
+/.gitattributes export-ignore
+/.github       export-ignore
